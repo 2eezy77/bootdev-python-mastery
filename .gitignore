@@ -181,3 +181,4 @@ cython_debug/
 .cursorindexingignore
 # Claude Code local settings
 .claude/
+.gitattributes
