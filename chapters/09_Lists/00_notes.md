@@ -4,7 +4,7 @@
 - Declared using square brackets with commas separating items; accepts any data-type 
 - Started using it by storing a list of strings.
 
-# Acceptable List Readability (Preferance-based design) 
+# Acceptable List Readability (Preferance-based design)
 
 - Can structure in a column format
 - Used when there are many items in a list and reading becomes hard
@@ -21,7 +21,7 @@
 # Indexing list items
 
 - Similar to function calls: calling function, function runs and stores result, then returns result to caller and printed when printing happens.
-- syntax: dictionary = [0,1,2,3,4, index_second_item = 1, print(dicitonary[index_second_item)
+- syntax: dictionary = [0,1,2,3,4, index_second_item = 1, print(dictionary[index_second_item)
 
 # Indexing list items from variable
 
@@ -68,18 +68,27 @@
 - 
 
 # Comparing two lists using len() range loop and comparison operators with list[i incrementation. [13_find_increase.py] & [_find_increase_again.py]
+
 - Useful when comparing old player levels with new player levels and seeing which list items have changed.
 
 # Find Max "So Far" Using float("-inf") [14_find_max.py]
+
 - Set negative infinity as you would a counter to keep track of incoming integers.
 - Loop using no-indexing to compare iterations of the argument inputs to the negative infinity variable; include test for empty, where if empty, returns negative infinity.
 - Meant to iterate over all items of a list and print the highest number.
 
 # Finding odd numbers in list using index loop and modulus and extracting them using .append(i to new list. [15_get_all_odds.py]
+
 - Loop using indexes (i in range(0, num and if some iteration's remainder, if divided by 2, is not 0 then append that to a list of odd_numbers[; otherwise continue to next iteration.
 - 
 
 # Slicing a list of team names using the : operator
+
 - Just like the range( function it allows us to start, end, and step around the list. We can also ommit the use of any slicing options and only use what we need.
-- Input a list of team names and use the list slicing operator to return 3 new lists. You can return the operation and the return will create the new lists. 
+- Input a list of team names and use the list slicing operator to return 3 new lists. You can return the operation and the return will create the new lists.
+
+# Using a for loop with nested len() in range() to reverse the order of a list.
+
+- Understand that range is looking at the (start, stop, step) so nesting len(list) will call the entirety of the list starting from index 0. To reverse, one must start from the len(items) - 1, -1, -1. Made the mistake of not adding the -1 from where the start, and stop. e.g., range(len(items), 0, -1 = starting at items + 1. 
+- Append within each iteration of the loop. 
 
