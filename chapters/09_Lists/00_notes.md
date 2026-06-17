@@ -90,5 +90,15 @@
 # Using a for loop with nested len() in range() to reverse the order of a list.
 
 - Understand that range is looking at the (start, stop, step) so nesting len(list) will call the entirety of the list starting from index 0. To reverse, one must start from the len(items) - 1, -1, -1. Made the mistake of not adding the -1 from where the start, and stop. e.g., range(len(items), 0, -1 = starting at items + 1. 
-- Append within each iteration of the loop. 
+- Append within each iteration of the loop.
+
+# Using .split() & " ".join(), to filter out profanity in a chat lobby
+
+- order of operations is pretty simple, they both are either called on a string or list and return either string or list of string.
+- loop over each individual message within messages, split each individual message into words (list_of_words), then loop again over each one of those words; for words in list_of_words. Logic operations help determine whether profanity exists within these loops; append to new list all filtered_in_message(not plural since still split) and add 1 to the profanity_counter. Join the new list of words with a space delimiter (default space if None) and append to lists you originally made for filtered_messages(is plural since back tracked split) & profanity_counter (Notice the back track of joining is the same amount as the loops you made; ....interesting).
+
+# problem solving percentage of correct items in inventory in comparison to recipe list
+
+- 2 list are inputted (recipe and inventory). No duplicates allowed. Outputting a percentage and new list of the items missing.
+- Using the "in" (comparison operator) to find out what we have and what we dont have. If we dont have it then we add it to the new list using .append and what we have we add to a counter then we create a new variable to divide the counter by the len(recipe) and multiple the sum by 100 to get the percentage.
 
