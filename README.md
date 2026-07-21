@@ -1,81 +1,54 @@
 # bootdev-python-mastery
 
-Structured mastery notes, drills, and mini-projects from Boot.dev Learn to Code in Python.
+Structured mastery notes, drills, and mini-projects from Boot.dev *Learn to Code in Python*.
 
-## Study Philosophy
+**Author:** Jose I. Montero
 
-This repository follows a recall-driven deliberate practice model rather than passive review.
+## What's in this repo
 
-Programming is an output-based skill. Understanding is not measured by recognition while reading, but by the ability to generate working code from a blank file. After each lesson, I close the material and attempt to recreate the core concept from memory. If I fail, I correct only the specific gap and retry. I move forward at approximately 70–80% confidence and rely on repeated exposure across chapters to solidify fundamentals.
+| Path | Purpose |
+| ---- | ------- |
+| `chapters/` | Per-chapter notes and practice code (introduction through lists so far) |
+| `drills/` | Blank-file recall drills matched to early chapters |
 
-The goal is not perfection in a single sitting. The goal is fluency over time.
+Chapters currently covered: introduction, variables, functions, scope, unit tests, computing, comparisons, loops, and lists.
 
-This approach prioritizes:
+## Study approach
 
-- **Active recall** over rereading
-- **Controlled error correction** over repetition loops
-- **Progressive reinforcement** over perfectionism
+This repository follows a recall-driven practice model rather than passive review.
 
-Mastery is built through repeated generation, not repeated consumption.
+Programming is an output-based skill. Understanding is not measured by recognition while reading, but by the ability to generate working code from a blank file. After each lesson, I close the material and attempt to recreate the core concept from memory. If I fail, I correct only the specific gap and retry. I move forward at approximately 70-80% confidence and rely on repeated exposure across chapters to solidify fundamentals.
 
-## Execution Steps
+Priorities:
 
-### Per Lesson Workflow
+- Active recall over rereading
+- Controlled error correction over repetition loops
+- Progressive reinforcement over perfectionism
 
-**1️⃣ Complete the Lesson**
-- Read it once
-- Code along
-- Pass all Boot.dev checks
-- Fix errors until it runs
-- Do not aim for perfection. Just complete it.
+## Per-lesson workflow
 
-**2️⃣ Immediate Compression**
-- Close the lesson.
-- Write 1–3 sentences answering:
-  - What was the core concept?
-  - What behavior does it control?
-  - When would I use it?
-- Keep it short. No copying from the lesson.
+1. **Complete the lesson** - Read once, code along, pass Boot.dev checks, fix until it runs.
+2. **Immediate compression** - Close the lesson and write 1-3 sentences: core concept, behavior it controls, when to use it. No copying from the lesson.
+3. **Blank-file recall (3-5 minutes)** - Recreate the main idea in a new `.py` file and add one small variation, without looking.
+4. **Controlled peek (only if needed)** - Identify the exact missing piece, peek only at that syntax, then re-type from memory.
 
-**3️⃣ Blank File Recall (3–5 minutes)**
-- Open a new `.py` file.
-- Without looking:
-  - Recreate the main concept
-  - Add one small variation
-- If it was easy, this may take under a minute.
-- If it was harder, allow up to 5 minutes.
+### Scaling rule
 
-**4️⃣ Controlled Peek (Only if Needed)**
-- If you get stuck:
-  - Identify the exact missing piece
-  - Peek only at that syntax
-  - Close it immediately
-  - Re-type from memory
-  - Move on
-- Do not redo the entire lesson.
+| Easy lesson   | 30-60 second recall |
+| Medium lesson | 3-5 minute recall   |
+| Hard lesson   | 5-10 minutes + 2 variations |
 
-### Scaling Rule
+### Weekly reinforcement
 
-| Easy lesson   | 30–60 second recall |
-| Medium lesson | 3–5 minute recall   |
-| Hard lesson   | 5–10 minutes + 2 variations |
-
-Recall is always required. Intensity varies.
-
-### Weekly Reinforcement
-
-Once per week, open a blank file and write from memory:
-- A function
-- A loop
-- A conditional
-- A dictionary example
-- A try/except block
-
-If something feels weak, revisit only that chapter.
+Once per week, open a blank file and write from memory: a function, a loop, a conditional, a dictionary example, and a try/except block. Revisit only the weak chapter if something fails.
 
 ## Rules
 
-- Move forward at ~70–80% confidence
+- Move forward at ~70-80% confidence
 - Do not chase 100% certainty
 - Do not restart entire chapters repeatedly
 - Fluency is built through repeated generation across lessons
+
+## License
+
+MIT License. See [`LICENSE`](LICENSE).
